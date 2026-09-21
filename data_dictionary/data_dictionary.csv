@@ -1,0 +1,17 @@
+source,attribute,data_type,business_definition,unit
+online_retail,InvoiceNo,Kategori/ID,Nomor unik transaksi,-
+online_retail,StockCode,Kategori/ID,Kode unik produk,-
+online_retail,Description,Teks,Nama produk,-
+online_retail,Quantity,Numerik diskrit,Jumlah produk dalam transaksi,Unit
+online_retail,InvoiceDate,Timestamp,Tanggal dan waktu transaksi,Tanggal/Waktu
+online_retail,UnitPrice,Numerik kontinu,Harga satuan produk,GBP
+online_retail,CustomerID,Kategori/ID,Identitas pelanggan,-
+online_retail,Country,Kategori,Negara tempat pelanggan berada,-
+products,id,Numerik diskrit,ID produk,-
+products,title,Teks,Nama produk,-
+products,price,Numerik kontinu,Harga produk,USD
+products,category,Kategori,Kategori produk,-
+products,description,Teks,Deskripsi produk,-
+products,image,Teks/URL,URL gambar produk,URL
+products,rating.rate,Numerik kontinu,Nilai rata-rata rating,Skala 1-5
+products,rating.count,Numerik diskrit,Jumlah pemberi rating,Orang
